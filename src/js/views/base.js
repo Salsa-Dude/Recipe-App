@@ -2,7 +2,9 @@
 
 export const elements = {
   searchInput: document.querySelector('.search__field'),
-  searchResultList: document.querySelector('.results__list')
+  searchResultList: document.querySelector('.results__list'),
+  searchResultPages: document.querySelector('.results__pages')
+
 }
 
 export const renderLoader = parent => {
